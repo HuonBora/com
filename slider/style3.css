@@ -1,0 +1,173 @@
+*{
+     padding: 0;
+     margin: 0;
+}
+.contact{
+     width: 100%;
+     background: url(pic/bg.jpg);
+     background-position: center;
+     background-size: cover;
+     height: 100vh;
+     position: relative;
+     font-family: sans-serif;
+ 
+ }
+.navbar{
+    
+     width: 86%;
+     display: flex;
+     margin: auto;
+     padding: 50px 0;
+     align-items: center;
+     justify-content: space-between;
+     
+     
+ }
+ 
+ .navbar .logo{
+     width: 160px;
+     cursor: pointer;
+     margin-top: -2%;
+     margin-left: -2%;
+     
+ }
+ 
+ ul{
+     margin-top: -4%;
+ }
+ 
+ ul li{
+     list-style: none;
+     display: inline-block;
+     padding: 15px 16px;
+ }
+ 
+ ul li a{
+     font-size: 16px;
+     font-weight: bold;
+     text-decoration: none;
+     color: darkslategray;
+     margin-top: -1%;
+     transition: .4s ease;
+ 
+ }
+ 
+ ul li a:hover{
+     color: rgb(230,104,59);
+ }
+ 
+/* .icons a{
+     text-decoration: none;
+     color: #000;
+ }
+ 
+ .icons ion-icon{
+     margin-left: 7%;
+     color: #000;
+     margin-right: -60px;
+     font-size: 40px;
+     transition: .4s ease;
+     
+ } */
+ 
+ /* .icons ion-icon:hover{
+     color: rgb(59,174,209);
+ } */
+ .col{
+     /* display: flex !important; */
+     flex-direction: column !important;
+ }
+ .contact label{
+     font-size: 20px;
+     font-weight: 600;
+     padding-bottom: 1rem;
+ }
+ .label{
+     display: inline-block;
+ }
+ .label a img{
+     width: 50px !important;
+
+ }
+ img, svg{
+     vertical-align: middle;
+ }
+ .col{
+     width: 80%;
+     height: 450px;
+     /* background-color: pink; */
+     margin-left: 20%;
+     padding: 6%;
+     
+ }
+ .col img{
+     width: 70px;
+     height: 70px;
+ }
+ a{
+     text-decoration: none;
+ }
+ .table h1{
+     margin-left: 40%;
+     font-weight: 600;
+ }
+ /* phone */
+ @media only screen and (max-width: 600px){
+     .navbar{
+          width: 86%;
+          display: flex;
+          margin: auto;
+          padding: 50px 0;
+          align-items: center;
+          justify-content: space-between;
+          
+      }
+      
+      .navbar .logo{
+          width: 60px;
+          cursor: pointer;
+          margin-top: -2%;
+          margin-left: -2%;
+      }
+      
+      ul{
+          margin-top: -4%;
+      }
+      
+      ul li{
+          list-style: none;
+          display: inline-block;
+          padding: 5px 6px;
+      }
+      
+      ul li a{
+          font-size: 15px;
+          font-weight: bold;
+          text-decoration: none;
+          color: darkslategray;
+          margin-top: -1%;
+          transition: .4s ease;
+      
+      }
+      
+      ul li a:hover{
+          color: rgb(230,104,59);
+      }
+      .table h1{
+          margin-left: 35%;
+          font-weight: 600;
+          font-size: 18px;
+      }
+      .col{
+          width: 80%;
+          height: 450px;
+          /* background-color: pink; */
+          margin-left: 15%;
+          padding: 6%;
+          
+      }
+      .col img{
+          width: 70px;
+          height: 70px;
+      }
+ }
